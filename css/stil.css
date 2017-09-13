@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i');
+
+body{
+    background: lightpink;
+}
+h1{
+    font-family:"Poppins", sans-serif;
+    font-size: 500%;
+    color: white;
+    text-align: center;
+}
+h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 200%;
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+    width: 100%
+    padding: 0px, 0px;
+    margin: 8px 0px;
+}
+
+div.velkommen{
+    border: 3px solid white;
+    border-radius: 0px;
+    max-width: 300px;
+    margin: auto;
+}
+
+div.velkommen:hover{
+    border: 2px solid lightgray;
+}
+h2:hover{
+    color: lightgray;
+}
