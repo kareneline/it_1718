@@ -29,8 +29,8 @@ div.velkommen{
 }
 
 div.velkommen:hover{
-    border: 2px solid lightgray;
+    border: 2px solid hotpink;
 }
 h2:hover{
-    color: lightgray;
+    color: hotpink;
 }
