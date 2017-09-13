@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200i');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Poppins:100');
 
 body{
     background: lightpink;
 }
 h1{
-    font-family:"Poppins", sans-serif;
+    font-family:"Great Vibes", sans-serif;
     font-size: 500%;
     color: white;
     text-align: center;
@@ -18,7 +18,7 @@ h2{
     letter-spacing: 3px;
     width: 100%
     padding: 0px, 0px;
-    margin: 8px 0px;
+    margin: 1px 0px;
 }
 
 div.velkommen{
