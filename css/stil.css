@@ -9,7 +9,7 @@ h1{
     color: white;
     text-align: center;
 }
-h2{
+h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     font-size: 200%;
@@ -19,13 +19,14 @@ h2{
     width: 100%
     padding: 0px, 0px;
     margin: 1px 0px;
-}
-
-div.velkommen{
     border: 3px solid white;
     border-radius: 0px;
     max-width: 300px;
     margin: auto;
+}
+
+div.velkommen{
+
 }
 
 div.velkommen:hover{
