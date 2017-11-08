@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    text-align:center;
+    font-family: Helvetica, sans-serif;
+}
+
+div.grid{
+    display: grid;
+    grid-template-areas:
+            "header"
+            "nav"
+            "main"
+            "aside1"
+            "aside2"
+            "footer"
+
+;
+
+
+
+}
+div.header{
+    background-color: #76a0c8;
+    grid-area: header;
+
+}
+div.nav{
+    background-color: #9dd6c8;
+    grid-area: nav;
+    
+
+}
+div.main{
+    background-color: #b2bed3;
+    grid-area: main;
+}
+div.aside1{
+    background-color: #dff7fe;
+    grid-area: aside1;
+
+}
+div.aside2{
+    background-color: #b3a4d3;
+    grid-area: aside2;
+
+}
+div.footer{
+    background-color: #b7ddda;
+    grid-area: footer;
+
+}
+
+@media (min-width: 500px) {
+    div.grid{
+        grid-template-columns: 1fr 5fr;
+        grid-template-areas:
+                "header    header"
+                "nav       main"
+                "nav       main"
+                "aside1    main"
+                "aside2    footer"
+    ;
+    }
+
+}
+
+h1{
+
+    font-family: "Jennifer Lynne", sans-serif;
+
+
+}
+
+ul{
+
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+
+
+}
+
+
+
+li a{
+
+    display: block;
+    background-color: lightskyblue;
+    margin: 2px;
+    width: 120px;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    color: whitesmoke;
+
+}
